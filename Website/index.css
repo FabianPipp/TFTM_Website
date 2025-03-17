@@ -1,0 +1,249 @@
+body,html {
+    height: 100%;
+    margin: 0;
+
+    color: white !important;
+    text-align: center;
+
+    background-image: url("img/BG_Castle.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 1em;     
+}
+
+#gradient {
+    box-shadow: inset 0em 0em 100em #230931;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    pointer-events: none;
+}
+
+#myHeader {
+    background-image: linear-gradient(rgb(240, 39, 21), rgba(255, 0, 0, 0));
+    border: 3px solid yellow;
+    height: 6em;
+}
+#tftm-header{
+    position:fixed;
+    width: 100%;
+    height: 5em;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    opacity: 0;
+}
+
+
+.sticky {
+    position: fixed;
+    width: 100%;
+}
+
+.displayNone {
+    display: none;
+}
+
+.bgPurple{
+    background-color: #0C0311;
+}
+
+/* button----------------------------------------------- */
+#absoluteButtons{
+    opacity: 0;
+    
+}
+#buttonToSteam {
+    border-radius: 5px;
+    outline: 5px solid #0C031199;
+    border: 2px solid white;
+    width: 15em;
+    padding: 1em 0 1em 0;
+    text-align: center;
+    background-color: #0C031199;
+    color: white;
+    z-index: 2;  
+}
+
+#buttonToSteam:hover {
+    background: #0C0311;
+}
+
+.rightBottom {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+}
+#rightBottomArrow {
+    position: fixed;
+    bottom: 1em;
+    right: 17em;
+
+    border-radius: 5px;
+    outline: 5px solid #0C031199;
+    border: 2px solid white;
+    /* width: 3em; */
+    padding: 0.75em;
+    text-align: center;
+    background-color: #0C031199;
+    color: white;
+
+    z-index: 2;
+    
+}
+
+#rightBottomArrow:hover {
+    background: #0C0311;
+}
+
+
+
+/* --------------------------------------------------------- */
+
+
+.gameAspectText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h4{
+        text-decoration: underline;
+    }
+}
+.community{
+    width: 30em; 
+    min-width: 10em;  
+    max-width: 80%; 
+    margin: 2em auto;
+    text-align: center;
+    h2{
+        margin: 1em;
+    }
+}
+
+/* IMG--------------------------------------------- */
+.imgBorder{
+    border: 3px solid #3d1055;
+    border-radius: 0.5em;
+    width: 80%;
+    height: auto;
+}
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+.iconFooter{
+    width: 100%;
+    height: auto;
+}
+
+.logoHeader {
+    width: 20em;
+    height: auto;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.sectionDivider{
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    position: relative;
+}
+
+#clouds {
+    pointer-events: none;
+    position: fixed;
+    animation: linear infinite;
+    animation-name: run;
+    animation-duration: 40s;
+    height: 100%;
+    
+    img{ 
+        height: 100%;
+        
+    }
+}
+
+@keyframes run{
+    0%{
+        left: -800px;
+    }
+    50%{
+        left: 0;
+    }
+    100%{
+        left: -800px;
+    }
+}
+
+.bgImage{
+    background-image: url("img/BG_Castle.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.headerBG {
+    background-image: url("img/BG_Castle.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#borderBG {
+    pointer-events: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    text-align: initial;
+    img{ 
+        position: absolute;
+    }
+    .borderBGY{
+        height: 4em; 
+    }
+    .borderBGX{
+        width: 4em; 
+    }
+}
+@media only screen and (max-width: 600px) {
+    #borderBG {
+    .borderBGY{
+        height: 2em; 
+    }
+    .borderBGX{
+        width: 2em; 
+    }
+}
+}
+
+/* TEXT ------------------------------------------------------ */
+
+.text-blocked {
+	text-align: justify;
+}
+
+/* MEDIA ------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 992px) {
+    .logoHeader {
+        width: 15em;
+        height: auto;
+    }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+    .logoHeader {
+        width: 13em;
+        height: auto;
+    }
+  
+}

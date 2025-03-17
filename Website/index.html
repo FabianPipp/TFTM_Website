@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width = device-width, initial-scale = 1">
+  
+  <title>Hidden Shadows</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+<!-- Pos Abolute -->
+  <div id="gradient"></div>
+  <div class="d-flex flex-row-reverse" id="absoluteButtons">
+    <div id="buttonToSteam" class="rightBottom" onclick="window.location='https://store.steampowered.com/app/2874280/They_Fear_The_Mist/';">Buy on Steam</div>
+    <div id="rightBottomArrow" onclick="scrollToTop()"><img src="img/arrowup.png" alt=""></div>
+  </div>
+<!-- borderBG -->
+  <div id="borderBG">
+    <img src="img/border_top.png" alt="" style="transform: rotate(0deg); width: 100%; top:5em;" class="borderBGY">
+    <img src="img/border_top.png" alt="" style="transform: rotate(180deg); width: 100%; bottom: 0;" class="borderBGY"> 
+    <img src="img/border_side.png" alt="" style="transform: rotate(0deg); height: 100%; right: 0; top:5em;" class="borderBGX">
+    <img src="img/border_side.png" alt="" style="transform: rotate(180deg); height: 100%; left: 0; top:5em;" class="borderBGX">
+  </div>
+<!-- clouds -->
+  <div id="clouds">
+    <img src="img/clouds.png" alt="">
+  </div>
+<!-- HEADER -->
+  <div id="tftm-header">
+    <div class="container row d-flex justify-content-center">
+      <div class="col-6 m-auto">
+        <img class="logoHeader" src="img/Logo_Small.png" alt="Logo">
+      </div>
+      <div class="col-6 m-auto">
+        <div class="d-flex justify-content-end">
+          <a href="https://www.instagram.com/hiddenshadowsgames/reels/" title="Presskit" >
+            <img class="icon" src="img/press.png" alt="">
+          </a>
+          <a href="https://www.instagram.com/hiddenshadowsgames/reels/" title="Instagram" class="ms-4">
+            <img class="icon" src="img/instagram.png" alt="">
+          </a>
+          <a href="https://www.youtube.com/@hiddenshadowsgames" title="Youtube" class="ms-4">
+            <img class="icon" src="img/yt.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>    
+  </div>
+  <div class="headerBG">
+    <div class="d-flex align-items-center justify-content-center flex-column align-middle h-100">
+      <img class="img-fluid" src="img/TFTM_Logo - Copy.png" alt="TFTM_LOGO_BIG">
+
+      <div id="buttonToSteam" style="z-index: 0 !important;" onclick="window.location='https://store.steampowered.com/app/2874280/They_Fear_The_Mist/';">
+        <h4>Buy on Steam</h4>
+      </div>
+    </div>
+  </div>
+<!-- ABOUT US -->
+  <div class="bgPurple">
+    <div class="container">
+      <div>
+        <br>
+        <hr>
+        <h4>About They Fear The Mist</h4>
+          They Fear The Mist is a real-time strategy game, where you command your Troops, build your Settlement, fight off thousands of Enemies and explore the Unknowns of the Mist. Take command of your people and defend them from the incoming hordes… Can you survive?
+        <hr>
+        <br>
+      </div>
+    </div>
+  </div>
+  <img src="img/sectionDivider.png" class="sectionDivider" alt="">
+<!-- GAME ASPECTS -->
+  <div class="container">
+    <div>
+      <br>
+      <h2><b>Game Aspects</b></h2>
+      <br>
+      <div class="row my-2">
+        <div class="col col-lg-6 col-md-6 col-sm"><img src="img/TFTM_Arrow.gif" class="imgBorder"> </div>
+        <div class="col col-lg-6 col-md-6 col-12 gameAspectText">
+          <div style=" width: 80%;" class="text-blocked">
+            <h4>Fight thousands of enemies:</h4>
+            <h5>Engage in epic battles as you lead your forces against overwhelming hordes of enemies. Strategize, deploy your troops and harness powerful abilities to overcome 
+                the relentless onslaught. Every decision counts in this intense real-time strategy experience, where the survival of your people depends on your tactical prowess.
+            </h5>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row my-2">
+        <div class="col col-lg-6 col-md-6 col-12 gameAspectText">
+          <div style=" width: 80%;" class="text-blocked">
+            <h4>Build your Settlement:</h4>
+            <h5>
+              Become the architect of your people by constructing and expanding your settlement. Gather resources, plan the layout, and fortify your defenses to
+              withstand the enemy's relentless attacks. As the commander, you hold the fate of your people in your hands – make strategic choices to ensure the growth
+              and security of your evolving community. And always remember to keep the hope of your people up, otherwise your downfall will be guaranteed.
+            </h5>
+          </div>
+        </div>
+        <div class="col col-lg-6 col-md-6 col-12"><img src="img/TFTM_360.gif" class="imgBorder"></div>
+      </div>
+      <br>
+      <div class="row my-2">
+        <div class="col col-lg-6 col-md-6 col-sm"><img src="img/TFTM_Mist.png" class="imgBorder"> </div>
+        <div class="col col-lg-6 col-md-6 col-12 gameAspectText">
+          <div style=" width: 80%;" class="text-blocked">
+            <h4>Explore the Mist:</h4>
+            <h5>
+              Venture into the mysterious Mist, uncover hidden treasures, face unknown threats, and unlock the mysteries that lie within it. Your exploration decisions 
+              will impact your overall strategy and may reveal vital resources or unforeseen challenges. Navigate the Mist wisely, for it holds both the key to survival and the 
+              potential for unforeseen peril.
+            </h5>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row my-2">
+        <div class="col col-lg-6 col-md-6 col-12 gameAspectText">
+          <div style=" width: 80%;" class="text-blocked">
+            <h4>Manage your Troops:</h4>
+            <h5>
+              As the commander, your ability to lead and manage your troops is crucial. Recruit and upgrade diverse units with unique strengths. Develop new strategies
+              to outsmart your enemies. Adapt to changing situations and upgrade your forces as they are your most valuable asset. The fate of your people rests on your
+              leadership – can you command with precision and lead them to victory against the advancing threat?
+            </h5>
+          </div>
+        </div>
+        <div class="col col-lg-6 col-md-6 col-12"><img src="img/TFTM_Army.gif" class="imgBorder"></div>
+      </div>
+      <br>
+    </div>
+  </div>
+<!-- GAME  TRAILER -->
+  <img src="img/sectionDivider.png" style="transform: rotate(180deg); margin-bottom: -2px;" class="sectionDivider" alt="">
+  <div class="bgPurple">
+    <div class="container">
+      <br>
+      <hr>
+      <h2><b>Game Trailer</b></h2>
+      <br>
+      <div style="width: 100%; min-width: 200px; ">
+        <div style="position: relative; width: 100%; overflow: hidden;">
+          <video width="100%" controls poster="img/Reveal_Trailer_Thumbnail.png">
+            <source src="img/Reveal Trailer.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+        </video>
+        <!-- <p><iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://youtube.com/embed/qFSRSOplKqc?mute=1&loop=1" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></p> -->
+        </div>
+      </div>
+      <hr>
+      <br>
+    </div>
+  </div>
+  <img src="img/sectionDivider.png" class="sectionDivider" alt="">
+<!-- COMMUNITY -->
+  <div class="community">
+    <h2><b>Join the Community</b></h2>
+    <div style="position: relative; width: 100%; overflow: hidden; height: 100%;">
+      <p>
+        <iframe 
+          src="https://discord.com/widget?id=1213868487383195720&theme=dark"
+          width="100%" 
+          height="300em" 
+          allowtransparency="true" 
+          frameborder="0"
+          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+        </iframe>
+      </p>
+    </div>
+  </div>
+  <!-- <div class="entry container">
+      <div style="width: 100%; text-align: center; margin: auto;">
+        <br>
+        <h2><b>Join the Community</b></h2>
+        <br>
+
+        <div class="row align-items-start">
+          <div class="col-lg-8 col-md-8 col-sm-12 flex-fill" style="text-align: left;">
+            <h5>
+              Explore the mist into electronic typesetting, remaining essentially unchanged. It was popularised in the
+              1960s
+              <hr>
+              <p>
+              <ul>
+                <li>Explore the mist into electronic typesetting, remaining</li>
+                <br>
+                <li>Explore the mist into electronic typesetting, remaining</li>
+                <br>
+                <li>Explore the mist into electronic typesetting, remaining</li>
+              </ul>
+            </h5>
+          </div>
+
+
+
+
+          <div class="p-2 col-lg-4 col-md-4 col-sm-12 flex-fill">
+           
+
+            <div style="width: 100%; min-width: 200px; ">
+              <div style="position: relative; width: 100%; overflow: hidden; height: 100%;">
+                <p>
+                  <iframe 
+                    src="https://discord.com/widget?id=1213868487383195720&theme=dark"
+                    width="100%" 
+                    height="300em" 
+                    allowtransparency="true" 
+                    frameborder="0"
+                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+                  </iframe>
+                </p>
+              </div>
+            </div>
+
+
+          </div>
+
+    
+
+
+
+        </div>
+        <br>
+      </div>
+    </div> -->
+
+  <!-- FOOTER -->
+  <img src="img/sectionDivider.png" style="transform: rotate(180deg); margin-bottom: -2px;" class="sectionDivider" alt="">
+  <div class="bgPurple pt-3" style="padding-bottom: 8em;">
+    <div class="container d-flex justify-content-center ">
+      <div class="w-50 m-auto">
+        <img src="img/Studio_Logo.png" alt="" style="width: 100%;">
+      </div>
+      <div class="w-50 m-auto">
+        <img src="img/TFTM_Logo2.png" alt="" style="width: 80%;">
+      </div>
+    </div>
+    <hr class="container">
+    <div class="container d-flex py-5" style="justify-content: space-evenly;">
+      <a href="https://www.instagram.com/hiddenshadowsgames/reels/" title="Presskit">
+        <img class="iconFooter" src="img/press.png" alt="">
+      </a>
+      <a href="https://www.instagram.com/hiddenshadowsgames/reels/" title="Instagram" class="ms-4">
+        <img class="iconFooter" src="img/instagram.png" alt="">
+      </a>
+      <a href="https://www.youtube.com/@hiddenshadowsgames" title="Youtube" class="ms-4">
+        <img class="iconFooter" src="img/yt.png" alt="">
+      </a>
+    </div>
+    IMPRESSUM TODO
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <iframe src="https://discord.com/widget?id=1213868487383195720&theme=dark"
+              width="100%" height="100%" allowtransparency="true" frameborder="0"
+              sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+            </iframe> -->
