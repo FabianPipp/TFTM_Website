@@ -251,6 +251,9 @@ body,html {
     color: white;
     text-decoration: none;
     font-family:'KingFont';
+    span{
+        vertical-align: text-top;
+    }
 }
 
 
